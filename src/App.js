@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 
 import "./App.css"
+import "./Loading.css"
 import iconDice from "./icon-dice.svg"
 import mobileDivider from "./pattern-divider-mobile.svg"
 import desktopDivider from "./pattern-divider-desktop.svg"
