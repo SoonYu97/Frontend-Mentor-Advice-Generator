@@ -10,6 +10,7 @@ function App() {
 	const [loading, setLoading] = useState(true)
 
 	const GetNewAdvice = () => {
+		setLoading(true)
 		fetch("https://api.adviceslip.com/advice")
 			.then((response) => {
 				if (response.ok) {
@@ -26,18 +27,19 @@ function App() {
 		GetNewAdvice()
 	}, [])
 
-	if (loading)
-		return (
-			<main className="App">
-				<div className="Loading">Loading...</div>
-			</main>
-		)
-
 	return (
 		<main className="App">
 			<section className="Card">
-				<h1 className="Card-title">ADVICE #{advice?.id}</h1>
-				<p className="Card-advice">"{advice?.advice}"</p>
+				<h1 className="Card-title">
+					{loading ? "Loading" : `ADVICE #${advice?.id}`}
+				</h1>
+				{loading ? (
+					<div class="lds-circle">
+						<div></div>
+					</div>
+				) : (
+					<p className="Card-advice">"{advice?.advice}"</p>
+				)}
 				<img
 					src={mobileDivider}
 					className="Mobile-divider"
