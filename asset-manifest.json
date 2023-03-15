@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Frontend-Mentor-Advice-Generator/static/css/main.417387cc.css",
-    "main.js": "/Frontend-Mentor-Advice-Generator/static/js/main.f4160b7a.js",
+    "main.css": "/Frontend-Mentor-Advice-Generator/static/css/main.e4ebc155.css",
+    "main.js": "/Frontend-Mentor-Advice-Generator/static/js/main.3aa1a6ea.js",
     "index.html": "/Frontend-Mentor-Advice-Generator/index.html",
     "static/media/icon-dice.svg": "/Frontend-Mentor-Advice-Generator/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
     "static/media/pattern-divider-desktop.svg": "/Frontend-Mentor-Advice-Generator/static/media/pattern-divider-desktop.ed9685263f6b47d21c8848f7d8bdd10e.svg",
     "static/media/pattern-divider-mobile.svg": "/Frontend-Mentor-Advice-Generator/static/media/pattern-divider-mobile.aca38726412164df099c43d4f2fed72e.svg",
-    "main.417387cc.css.map": "/Frontend-Mentor-Advice-Generator/static/css/main.417387cc.css.map",
-    "main.f4160b7a.js.map": "/Frontend-Mentor-Advice-Generator/static/js/main.f4160b7a.js.map"
+    "main.e4ebc155.css.map": "/Frontend-Mentor-Advice-Generator/static/css/main.e4ebc155.css.map",
+    "main.3aa1a6ea.js.map": "/Frontend-Mentor-Advice-Generator/static/js/main.3aa1a6ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.417387cc.css",
-    "static/js/main.f4160b7a.js"
+    "static/css/main.e4ebc155.css",
+    "static/js/main.3aa1a6ea.js"
   ]
 }
