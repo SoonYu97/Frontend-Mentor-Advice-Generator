@@ -9,6 +9,83 @@
 	--Dark-Blue: hsl(218, 23%, 16%);
 }
 
+* {
+	box-sizing: border-box;
+}
+
 .App {
+	min-height: 100vh;
+	width: 100vw;
+	background-color: var(--Dark-Blue);
 	text-align: center;
+	padding: 32px 20px;
+}
+
+.Loading {
+	color: var(--Light-Cyan);
+}
+
+.Card {
+	position: relative;
+	padding: 28px 32px 60px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--Dark-Grayish-Blue);
+	border: none;
+	border-radius: 12px;
+}
+
+.Card-title {
+	color: var(--Neon-Green);
+	font-size: 12px;
+	letter-spacing: 0.4rem;
+	text-transform: capitalize;
+}
+
+.Card-advice {
+	margin: 12px 0 40px;
+	color: var(--Light-Cyan);
+	font-size: 28px;
+	font-weight: 800;
+}
+
+.Desktop-divider {
+	display: none;
+}
+
+.Next-button {
+	position: absolute;
+	bottom: -35px;
+	padding: 20px;
+	background-color: var(--Neon-Green);
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.Next-button:hover {
+	box-shadow: 0px 0px 32px .5px var(--Neon-Green);
+}
+
+@media screen and (min-width: 640px) {
+	.App {
+		display: flex;
+	}
+	
+	.Card {
+		margin: auto;
+		padding: 40px 56px 72px;
+		width: 560px;
+	}
+
+	.Mobile-divider {
+		display: none;
+	}
+
+	.Desktop-divider {
+		display: block;
+	}
 }
